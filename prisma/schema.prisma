@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Produto {
+model Produtos {
   id        String   @id @default(uuid())
   nome      String
   descricao String
@@ -23,7 +23,7 @@ model Produto {
   updatedAt DateTime @updatedAt
 }
 
-model Postagem {
+model Postagens {
   id        String   @id @default(uuid())
   titulo    String
   subtitulo String

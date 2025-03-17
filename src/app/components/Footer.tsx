@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white p-4 mt-4">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between">
+    <footer className="bg-primary text-white p-4 mt-4 w-full">
+      <div className="container mx-auto flex flex-col justify-between md:gap-4">
         <div className="text-center text-sm">
           <p>
             <strong>CNPJ:</strong> 00.000.000/0000-00
@@ -19,7 +19,7 @@ const Footer = () => {
             <strong>Telefone:</strong> (00) 0000-0000
           </p>
         </div>
-        <div className="flex space-x-4 mt-4 md:mt-0 justify-between">
+        <div className="flex space-x-4 mt-4 md:mt-0 justify-between items-center">
           <a href="#" className="hover:opacity-80">
             🔗 Facebook
           </a>

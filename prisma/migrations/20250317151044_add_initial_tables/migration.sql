@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Produto" (
+CREATE TABLE "Produtos" (
     "id" TEXT NOT NULL,
     "nome" TEXT NOT NULL,
     "descricao" TEXT NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE "Produto" (
 );
 
 -- CreateTable
-CREATE TABLE "Postagem" (
+CREATE TABLE "Postagens" (
     "id" TEXT NOT NULL,
     "titulo" TEXT NOT NULL,
     "subtitulo" TEXT NOT NULL,
