@@ -11,7 +11,7 @@ const QuemSomos = () => {
         alt="Quem Somos"
         width={400}
         height={400}
-        className="rounded-full bg-slate-300 bg-cover"
+        className="rounded-xl bg-slate-300 bg-cover shadow-md"
         priority={true}
       />
     </div>
