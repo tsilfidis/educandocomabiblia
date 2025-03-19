@@ -51,7 +51,7 @@ const Navbar = () => {
                 Quem Somos
               </Link>
             </li>
-            <li className="hidden block">
+            <li className="hidden">
               <Link href="/inscricoes">
                 <Button
                   variant="destructive"
