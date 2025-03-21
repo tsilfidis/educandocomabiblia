@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="flex flex-col items-center w-full h-[100vh]">
       <body
-        className={`w-[98%] bg-secondary ${poppins.className} h-[100vh] lg:w-[1024px] antialiased `}
+        className={`w-[98%] bg-secondary ${poppins.className} 2xl:w-[1280px] h-[100vh] antialiased `}
       >
         <Navbar />
         {children}

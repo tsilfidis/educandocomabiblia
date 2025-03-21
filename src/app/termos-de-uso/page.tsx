@@ -1,8 +1,8 @@
 const TermosDeUso = () => {
   return (
-    <div>
-      <h1>Termos de Uso e Serviço</h1>
-      <p>
+    <div className="p-8">
+      <h1 className="font-bold">Termos de Uso e Serviço</h1>
+      <p className="text-justify">
         IMPORTANTE! ESSES TERMOS DE SERVIÇO REGULAM O USO DESTE SITE
         DISPONIBILIZADO PELA <b>EDUCANDO COM A BÍBLIA</b>. AO ACESSAR A ESSE
         SITE, VOCÊ ATESTA SEU CONHECIMENTO E CONCORDÂNCIA COM ESSES TERMOS DE
@@ -11,7 +11,7 @@ const TermosDeUso = () => {
         CONSTITUI SEU CONHECIMENTO E ACEITAÇÃO DAS MUDANÇAS. POR FAVOR, CONSULTE
         OS TERMOS DE USO ANTES DE CADA USO PARA AVERIGUAR MODIFICAÇÕES.
       </p>
-      <h2>Acesso ao site</h2>
+      <h2 className="font-bold">Acesso ao site</h2>
       <p>
         Para acessar a esse site ou alguns dos recursos que ele oferece, pode
         ser requerido que você forneça alguns detalhes para inscrição ou outras
@@ -22,7 +22,7 @@ const TermosDeUso = () => {
         seus serviços e também de cancelar ou suspender seu acesso a qualquer
         tempo sem notificação prévia.
       </p>
-      <h2>Restrições de uso</h2>
+      <h2 className="font-bold">Restrições de uso</h2>
       <p>
         Você pode utilizar esse site para propósitos expressamente permitidos
         por esse site. Você não pode utilizá-lo em qualquer outro objetivo,
@@ -39,7 +39,7 @@ const TermosDeUso = () => {
         por ele. Você concorda em cooperar com a Empresa para cessar qualquer
         associação, frame ou hiperlink não autorizados.
       </p>
-      <h2>Propriedade da Informação</h2>
+      <h2 className="font-bold">Propriedade da Informação</h2>
       <p>
         O material e conteúdo (referido nesse documento como “conteúdo”)
         acessíveis neste site e qualquer outro web site de propriedade,
@@ -58,7 +58,7 @@ const TermosDeUso = () => {
         propriedade intelectual de nossa Empresa. Nem autoria nem a propriedade
         intelectual são transferidas para você ao acessar esse site.
       </p>
-      <h2>Hiperlinks</h2>
+      <h2 className="font-bold">Hiperlinks</h2>
       <p>
         Este site pode conter links para outros websites que não são mantidos ou
         mesmo relacionados à nossa Empresa. Hiperlinks para tais sites são
@@ -71,7 +71,7 @@ const TermosDeUso = () => {
         de qualquer hiperlink para um site de terceiro não necessariamente
         implica endosso da nossa Empresa a esse site.
       </p>
-      <h2>Envios</h2>
+      <h2 className="font-bold">Envios</h2>
       <p>
         Por este termo você garante à nossa Empresa o direito e licença
         royalty-free, perpétuo, irrevocável, global não exclusivo de usar,
@@ -97,7 +97,7 @@ const TermosDeUso = () => {
         </a>{" "}
         do site.
       </p>
-      <h2>Aviso Legal</h2>
+      <h2 className="font-bold">Aviso Legal</h2>
       <p>
         Você entende que nossa Empresa não pode e não garante que arquivos
         disponíveis para download da Internet estejam livres de vírus, worms,
@@ -142,7 +142,7 @@ const TermosDeUso = () => {
         é publicada ou remover tal informação deste site caso ela não seja
         (mais) precisa ou completa.
       </p>
-      <h2>Limitação de Responsabilidade</h2>
+      <h2 className="font-bold">Limitação de Responsabilidade</h2>
       <p>
         A EMPRESA, SUAS FILIAIS, AFILIADOS, LICENCIANTES, PROVEDORES DE SERVIÇO,
         PROVEDORES DE CONTEÚDO, EMPREGADOS, AGENTES, ADMINISTRADORES E DIRETORES
@@ -158,7 +158,7 @@ const TermosDeUso = () => {
         PAGO À EMPRESA POR TAL CONTEÚDO, PRODUTO OU SERVIÇO DO QUAL A QUESTÃO
         TENHA SIDO LEVANTADA.
       </p>
-      <h2>Indenização</h2>
+      <h2 className="font-bold">Indenização</h2>
       <p>
         Você vai indenizar e isentar a Empresa, suas filiais, afiliados,
         licenciantes, provedores de serviço, provedores de conteúdo, empregados,
@@ -239,7 +239,7 @@ const TermosDeUso = () => {
         responsabilidade por nenhuma ação ou inação da Empresa ou referido
         terceiro a respeito de qualquer envio.
       </p>
-      <h2>Segurança</h2>
+      <h2 className="font-bold">Segurança</h2>
       <p>
         Toda senha usada para este site é somente para uso individual. Você é
         responsável pela segurança de sua senha (se for o caso). A Empresa tem o

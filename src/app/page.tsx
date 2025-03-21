@@ -7,8 +7,8 @@ const Home = async () => {
     return notFound();
   }
   return (
-    <div className="flex flex-col my-4">
-      <h1 className="bg-quaternary text-primary text-center text-2xl p-4 rounded-xl font-bold mb-4">
+    <div className={`flex flex-col mb-4 h-[70%]`}>
+      <h1 className="bg-quaternary text-primary text-center text-2xl p-4 rounded-b-xl font-bold mb-4">
         Destaques
       </h1>
       <ul>

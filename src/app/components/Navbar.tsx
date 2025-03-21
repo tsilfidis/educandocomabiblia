@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary text-secondary-light pb-4 px-4 rounded-b-2xl shadow-lg">
-      <div className="flex justify-between items-center">
+    <nav className="flex justify-between bg-primary text-secondary-light h-[100px] pb-3 px-4">
+      <div className="w-full flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Image
             src="/logo-EB-400px.png"
@@ -16,7 +16,7 @@ const Navbar = () => {
           />
           <h1 className="font-semibold">Educando com a Bíblia</h1>
         </div>
-        <div id="menu_links" className="hidden lg:block">
+        <div id="menu_links" className="hidden md:block">
           <ul className="flex space-x-2 text- items-center">
             <li>
               <Link
